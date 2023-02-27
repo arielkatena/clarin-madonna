@@ -42,6 +42,7 @@
   }
 
   @media (orientation: landscape) and (max-height: 799px) {
+    height: 100vh;
     padding: 0;
 
     flex-direction: row;
@@ -58,6 +59,7 @@
       display: flex;
       align-items: center;
       width: 50vw;
+      transform: translateY(0);
     }
 
     &__images {
@@ -72,6 +74,7 @@
   }
 
   @media (orientation: landscape) and (min-height: 800px) {
+    height: 100vh;
     padding: 0;
 
     &__text {
