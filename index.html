@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clarín</title>
-
   <!-- Velino -->
   <style>
     @font-face {
@@ -27,9 +26,16 @@
         url('https://clarin.com/redaccionfiler/clarin/desarrollo/fonts/VelinoHeadline-Bold.woff') format('woff');
     }
 
+    @font-face {
+      font-family: 'Velino-Headline-Book';
+      src: url('https://clarin.com/redaccionfiler/clarin/desarrollo/fonts/VelinoHeadline-Book.woff2') format('woff2'),
+        url('https://clarin.com/redaccionfiler/clarin/desarrollo/fonts/VelinoHeadline-Book.woff') format('woff');
+    }
+
     :root {
       --secondary-font-regular: 'Velino-Sans-Book', Arial, Helvetica, sans-serif;
       --secondary-font-bold: 'Velino-Sans-Bold', Arial, Helvetica, sans-serif;
+      --especial-color: #CAAD68;
     }
   </style>
   <!-- Adelle -->
@@ -48,12 +54,42 @@
       <img src="images/madonna.png" alt="Madonna">
     </div>
   </section>
-  <div class="temp">
 
+  <div class="dummy">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quo modi accusamus eveniet quia exercitationem
+      soluta perspiciatis ad voluptas magni incidunt, autem ullam itaque beatae eos? Sunt alias explicabo architecto.
+    </p>
+    <p>Non quas corporis laborum debitis unde ratione saepe distinctio, esse fugiat dolorem velit quam aspernatur eaque
+      perferendis atque ullam qui mollitia harum perspiciatis. Quam, sequi. Delectus fugiat voluptatibus impedit quam?
+      Voluptatum error, cupiditate hic aspernatur porro mollitia modi expedita pariatur reprehenderit quos nam
+      laudantium quod, quas dolores, beatae exercitationem minus. Quod dolores dolore nisi error placeat illum odit
+      dicta atque!00</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatibus voluptate repellendus, non cumque
+      nemo explicabo inventore suscipit, beatae mollitia blanditiis placeat similique necessitatibus, ad adipisci! Eum
+      officia nostrum veniam.</p>
   </div>
+
   <section class="scrollytelling">
   </section>
 
+
+  <style>
+    .dummy {
+      position: relative;
+      padding: 90px 20px;
+      background-color: var(--especial-color);
+    }
+
+    .dummy p {
+      width: 100%;
+      max-width: 620px;
+      margin: 30px auto;
+
+      font-family: 'Velino-Headline-Book';
+      font-size: 18px;
+      line-height: 1.35;
+    }
+  </style>
 </body>
 
 </html>
