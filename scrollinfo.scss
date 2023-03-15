@@ -1,0 +1,11 @@
+@import "assets/sass/scrollinfo/vars";
+@import "assets/sass/scrollinfo/scrollinfo-main-steps";
+@import "assets/sass/scrollinfo/scrollinfo-main-graphics";
+@import "assets/sass/scrollinfo/scrollinfo-dots";
+@import "assets/sass/scrollinfo/scrollinfo-contents";
+@import "assets/sass/scrollinfo/scrollinfo-footer";
+
+body { 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

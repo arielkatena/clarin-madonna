@@ -1,0 +1,76 @@
+$color-panel: #fff;
+$color-title: #171717;
+$color-text: #666;
+$color-dark: #171717;
+$color-lightgrey: #444;
+$color-grey: #333;
+
+$color-main: #1f9dd9;
+$color-step: #222;
+$color-text: #222;
+
+$color-grey: rgba(51, 51, 51, 0.6);
+$color-light: #fbf6f6;
+
+// New
+$color-especial: #caad68;
+$color-especial-alt: #7a4439;
+$phone-m: 375px;
+$phone-l: 411px;
+$landscape: 480px;
+$tablet-s: 720px;
+$tablet-l: 1024px;
+$desktop-s: 1256px;
+$desktop-l: 1440px;
+$desktop-xl: 1600px;
+
+@mixin font-main($family: false, $size: false, $lh: false, $weight: false, $color: false) {
+  //   font-family: "Portada-Thin", sans-serif;
+  @if $family {
+    font-family: $family;
+  }
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+
+  @if $weight {
+    font-weight: $weight;
+  }
+
+  @if $color {
+    color: $color;
+  }
+}
+
+@mixin font-sec($size: false, $lh: false, $weight: false, $color: false) {
+  // font-family: "adelle-sans", sans-serif;
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+
+  @if $weight {
+    font-weight: $weight;
+  }
+
+  @if $color {
+    color: $color;
+  }
+}
+// State
+.is-sticky {
+  position: sticky; // .scrollinfo__media, .scrollinfo__steps
+}
+
+.is-active {
+  opacity: 1 !important;
+}
