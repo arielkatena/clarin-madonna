@@ -16,8 +16,7 @@
     height: auto;
   }
 }
-
-.scrollinfo__txt--no-box {
+.scrollinfo .scrollinfo__steps .scrollinfo__step .scrollinfo__txt--no-box {
   background: none !important;
   background-color: transparent !important;
   // min-height: 320px !important;
@@ -28,6 +27,10 @@
   align-items: center;
   flex-direction: column;
   height: 100%;
+
+  padding: 0;
+  width: 80%;
+  max-width: 800px;
 }
 
 .especial__iframe,
@@ -36,7 +39,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
   height: 60vh !important;
   min-height: 320px;
