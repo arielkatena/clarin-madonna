@@ -1,15 +1,3 @@
-.especial__iframe,
-.especial__iframe iframe,
-.mv-playlist {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 600px;
-  width: 100%;
-  min-height: 320px;
-  transform: translate(-50%, -50%);
-}
-
 .especial__video {
   position: relative;
   // position: absolute;
@@ -32,10 +20,25 @@
 .scrollinfo__txt--no-box {
   background: none !important;
   background-color: transparent !important;
-  min-height: 320px !important;
+  // min-height: 320px !important;
   display: block !important;
 
-  iframe {
-    height: 320px !important;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.especial__iframe,
+.especial__iframe iframe,
+.mv-playlist {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  width: 90%;
+  height: 60vh !important;
+  min-height: 320px;
+  transform: translate(-50%, -50%);
 }
