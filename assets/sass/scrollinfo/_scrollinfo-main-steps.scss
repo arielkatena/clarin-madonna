@@ -59,9 +59,11 @@
 
         // border-radius: 15px;
 
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
+        @media (min-width: $tablet-s) {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
 
         @media (min-width: 480px) {
           width: 60vw;
@@ -84,7 +86,11 @@
           letter-spacing: -0.03em;
           color: #7a4439;
           position: relative;
-          padding: 0 20px 0 0;
+          padding: 0 0 20px 0;
+
+          @media (min-width: $tablet-s) {
+            padding: 0 20px 0 0;
+          }
 
           &::after {
             display: block;
@@ -95,13 +101,14 @@
             height: 100%;
             width: 1px;
             background-color: $color-especial-alt;
+
+            opacity: 0;
+
+            @media (min-width: $tablet-s) {
+              opacity: 1;
+            }
           }
         }
-
-        //   @media (min-width: $tablet-s) {
-        //     font-size: 28px;
-        //     line-height: 1.1;
-        //   }
 
         //   @media (min-width: $desktop-l) {
         //     font-size: 32px;
