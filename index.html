@@ -47,6 +47,7 @@
 <body>
 
   <!-- CSS -->
+  <script src="https://cdn.jwplayer.com/libraries/K0slgp9j.js"></script>
   <link rel="stylesheet" href="styles.css">
   <section class="hero">
     <div class="hero__text"><img src="images/madonna.svg" alt="Madonna 40 años"></div>
@@ -56,18 +57,31 @@
     </div>
   </section>
 
+  <!-- Dummy -->
   <div class="dummy">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quo modi accusamus eveniet quia exercitationem
-      soluta perspiciatis ad voluptas magni incidunt, autem ullam itaque beatae eos? Sunt alias explicabo architecto.
-    </p>
-    <p>Non quas corporis laborum debitis unde ratione saepe distinctio, esse fugiat dolorem velit quam aspernatur eaque
-      perferendis atque ullam qui mollitia harum perspiciatis. Quam, sequi. Delectus fugiat voluptatibus impedit quam?
-      Voluptatum error, cupiditate hic aspernatur porro mollitia modi expedita pariatur reprehenderit quos nam
-      laudantium quod, quas dolores, beatae exercitationem minus. Quod dolores dolore nisi error placeat illum odit
-      dicta atque!00</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatibus voluptate repellendus, non cumque
-      nemo explicabo inventore suscipit, beatae mollitia blanditiis placeat similique necessitatibus, ad adipisci! Eum
-      officia nostrum veniam.</p>
+    <p class="especial__bajada" style="font-size: 120%;">En 1983 con la publicación del single “Everybody”, la diva del
+      pop inició su carrera profesional.
+      Aunque en sus comienzos emigró de su Detroit natal hacia Nueva York para estudiar danza contemporánea, el destino
+      le tenía reservado muchísimo más.</p>
+    <p>En cine, en fotos, en libros, en videoclips nunca su presencia pasó inadvertida y si visión global de la
+      industria la convirtió en una de las figuras más influyentes del mundo del entretenimiento. Se convirtió en un
+      ícono de la moda siendo musa de las colecciones de importantes firmas como Dolce & Gabanna y Jean-Paul Gaultier.
+      Desde los ´80 Madonna es una marca en sí misma.</p>
+    <p>Su vida pública está construida a base de riesgos, controversias pero, sobre todo, de disciplina. Nada en el
+      Universo Madonna está librado al azar. Y cuando algo se sale de su control, tiene la pericia necesaria para salir
+      adelante y redoblar cualquier apuesta.</p>
+    <p>Todas sus apariciones generan expectativas y debates posteriores. La última fue en la entrega de los premios
+      Grammy el 5 de febrero de este año cuando presentó a Sam Smith y Kim Petras (primera mujer trans en actuar en la
+      ceremonia de premiación) antes de interpretar “Unholy”, sin embargo poco se habló de esta performance sino de la
+      apariencia física de la artista de 64 años. A través de las redes muchos opinaron sobre lo que consideraron el
+      “nuevo rostro” de Madonna. Ella publicó un comunicado donde expresó: “Una vez más, estoy atrapada en el resplandor
+      de la discriminación por edad y la misoginia que impregna el mundo en el que vivimos. Un mundo que se niega a
+      celebrar que las mujeres pasen la edad de 45 años y siente la necesidad de castigarla si continúa siendo fuerte,
+      trabajadora y aventurera.” “Nunca me he disculpado por ninguna de las elecciones creativas”, agregó y terminó
+      citando “Break my soul” de Beyoncé.</p>
+    <p>Combativa, maternal, feminista y creativa como pocas, Madonna nunca se calló nada ni dejó de trabajar ni de
+      defender sus convicciones. En plena vigencia acaba de anunciar un ambicioso tour celebratorio por sus 40 años de
+      carrera, la excusa perfecta para recordar cuarenta momentos en su vida y celebrar su arte.</p>
   </div>
   <style>
     .dummy {
@@ -91,8 +105,9 @@
   <section class="scrollytelling">
     <div class="especial__scrollytelling">
       <section class="scrollinfo" id="scroll1">
+        <!-- Dots -->
         <ul class="scrollinfo__dots" style="opacity: 0;">
-          <li class="dot--0  is-active" data-dot="0" style="opacity: 0;"></li>
+          <li class="dot--0  is-active" data-dot="0"></li>
           <li class="dot--1" data-dot="1"></li>
           <li class="dot--2" data-dot="2"></li>
           <li class="dot--3" data-dot="3"></li>
@@ -103,11 +118,13 @@
           <li class="dot--8" data-dot="8"></li>
           <li class="dot--9" data-dot="9"></li>
           <li class="dot--10" data-dot="10"></li>
+          <li class="dot--10b" data-dot="10b"></li>
           <li class="dot--11" data-dot="11"></li>
           <li class="dot--12" data-dot="12"></li>
           <li class="dot--13" data-dot="13"></li>
           <li class="dot--14" data-dot="14"></li>
           <li class="dot--15" data-dot="15"></li>
+          <li class="dot--15b" data-dot="15b"></li>
           <li class="dot--16" data-dot="16"></li>
           <li class="dot--17" data-dot="17"></li>
           <li class="dot--18" data-dot="18"></li>
@@ -236,6 +253,16 @@
           <div class="scrollinfo__graphic _graphic-10">
             <picture>
               <source
+                srcset="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/dk/bg-video.jpg"
+                media="(min-width: 900px)">
+              <img
+                src="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/mb/bg-video.jpg"
+                alt="Madonna">
+            </picture>
+          </div>
+          <div class="scrollinfo__graphic _graphic-10b">
+            <picture>
+              <source
                 srcset="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/dk/bg-playlist.jpg"
                 media="(min-width: 900px)">
               <img
@@ -287,6 +314,16 @@
                 srcset="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/dk/15.jpg"
                 media="(min-width: 900px)">
               <img src="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/mb/15.jpg"
+                alt="Madonna">
+            </picture>
+          </div>
+          <div class="scrollinfo__graphic _graphic-15b">
+            <picture>
+              <source
+                srcset="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/dk/bg-video.jpg"
+                media="(min-width: 900px)">
+              <img
+                src="https://www.clarin.com/redaccionfiler/clarin/especiales/2023/espectaculos/madonna/img/mb/bg-video.jpg"
                 alt="Madonna">
             </picture>
           </div>
@@ -556,7 +593,7 @@
         <!-- Textos -->
         <div class="scrollinfo__steps">
           <div class="scrollinfo__step scrollinfo__step--title -js-io --step-0" data-step="0">
-            <div class="scrollinfo__txt ">
+            <div class="scrollinfo__txt">
               <h3>01</h3>
               <p>La primera aparición pública de Madonna en televisión fue como bailarina de Patrick Hernandez mientras
                 este interpretaba su hit “Born To Be Alive”. Ella acababa de llegar desde Detroit a Nueva York para
@@ -640,7 +677,25 @@
             </div>
           </div>
           <div class="scrollinfo__step -js-io --step-1" data-step="10">
-            <div class="scrollinfo__txt --hide">
+            <div class="scrollinfo__txt scrollinfo__txt--no-box">
+              <div class="especial__video">
+                <div id="jwplayer_10"></div>
+                <script>
+                  jwplayer('jwplayer_10').setup({
+                    file: 'https://cdn.jwplayer.com/manifests/kMiKBiBK.m3u8',
+                    advertising: null,
+                  })
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="scrollinfo__step -js-io --step-1" data-step="10b">
+            <div class="scrollinfo__txt scrollinfo__txt--no-box">
+              <iframe class="especial__iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/02qhghhePWluWI0ldtwQvX?utm_source=generator&theme=0"
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
             </div>
           </div>
           <div class="scrollinfo__step -js-io --step-1" data-step="11">
@@ -679,6 +734,19 @@
                 con un santo y hasta aparece un Jesus negro. Esto le valió un boicot internacional a la compañía y sus
                 subsidiarias que al mes revocaron el contrato. El video ganó un premio MTV y Madonna aprovechó su
                 discurso para “agradecer a Pepsi por causar tanta controversia”.</p>
+            </div>
+          </div>
+          <div class="scrollinfo__step -js-io --step-5" data-step="15b">
+            <div class="scrollinfo__txt scrollinfo__txt--no-box">
+              <div class="especial__video">
+                <div id="jwplayer_15b"></div>
+                <script>
+                  jwplayer('jwplayer_15b').setup({
+                    file: 'https://cdn.jwplayer.com/manifests/m42tMDs3.m3u8',
+                    advertising: null,
+                  })
+                </script>
+              </div>
             </div>
           </div>
           <div class="scrollinfo__step -js-io --step-6" data-step="16">
@@ -944,25 +1012,25 @@
       window.addEventListener('resize', throttlerEvent, false);
 
       // Force Width 
-      const targetClassName = ".especial__scrollytelling";
-      const forceWidthElements = document.querySelectorAll(targetClassName);
-      const scrollDiv = document.createElement("div");
+      // const targetClassName = ".especial__scrollytelling";
+      // const forceWidthElements = document.querySelectorAll(targetClassName);
+      // const scrollDiv = document.createElement("div");
 
-      scrollDiv.setAttribute(
-        "style", "width: 100px; height: 100px; overflow: scroll; position: absolute; top: -101px;"
-      );
+      // scrollDiv.setAttribute(
+      //   "style", "width: 100px; height: 100px; overflow: scroll; position: absolute; top: -101px;"
+      // );
 
-      document.body.appendChild(scrollDiv);
-      const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
-      document.body.removeChild(scrollDiv);
+      // document.body.appendChild(scrollDiv);
+      // const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+      // document.body.removeChild(scrollDiv);
 
 
-      console.log(forceWidthElements);
-      forceWidthElements.forEach((element) => {
-        element.parentNode.setAttribute(
-          "style", "transform:none!important;margin-left: calc(-50vw + 50% + " + scrollbarWidth / 2 + "px); left: 0; top: 0; position: relative; width: calc(100vw - " + scrollbarWidth + "px);"
-        );
-      });
+      // console.log(forceWidthElements);
+      // forceWidthElements.forEach((element) => {
+      //   element.parentNode.setAttribute(
+      //     "style", "transform:none!important;margin-left: calc(-50vw + 50% + " + scrollbarWidth / 2 + "px); left: 0; top: 0; position: relative; width: calc(100vw - " + scrollbarWidth + "px);"
+      //   );
+      // });
     });
   </script>
   <style>
@@ -985,7 +1053,7 @@
 
     /* Scrollinfo */
     :root {
-      --stepsScroll1: 42;
+      --stepsScroll1: 44;
       --step-height: 120vh;
       --step-height-desktop: 120vh;
     }
@@ -1005,6 +1073,7 @@
     }
   </style>
   <link rel="stylesheet" href="scrollinfo.css">
+  <link rel="stylesheet" href="custom.css">
 
 </body>
 

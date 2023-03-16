@@ -15,6 +15,7 @@
     // pointer-events: none;
 
     .scrollinfo__step {
+      // pointer-events: none;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -112,9 +113,9 @@
 
           font-family: var(--main-font-regular);
           font-weight: 400;
-          font-size: clamp(19px, 2vw, 24px);
-          line-height: 1.25;
-          letter-spacing: -0.02em;
+          font-size: clamp(19px, 2vw, 20px);
+          line-height: 1.3;
+          // letter-spacing: -0.02em;
 
           color: #000;
 
