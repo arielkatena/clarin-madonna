@@ -5,6 +5,8 @@
   top: 50%;
   left: 50%;
   max-width: 600px;
+  width: 100%;
+  min-height: 320px;
   transform: translate(-50%, -50%);
 }
 
@@ -30,4 +32,10 @@
 .scrollinfo__txt--no-box {
   background: none !important;
   background-color: transparent !important;
+  min-height: 320px !important;
+  display: block !important;
+
+  iframe {
+    height: 320px !important;
+  }
 }
