@@ -16,21 +16,26 @@
     height: auto;
   }
 }
+
+.scrollinfo {
+  max-width: unset;
+}
+
 .scrollinfo .scrollinfo__steps .scrollinfo__step .scrollinfo__txt--no-box {
-  background: none !important;
-  background-color: transparent !important;
-  // min-height: 320px !important;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
   display: block !important;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 90%;
   height: 100%;
-
-  padding: 0;
-  width: 80%;
   max-width: 800px;
+  padding: 0;
+
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none;
 }
 
 .especial__iframe,
@@ -40,7 +45,7 @@
   top: 50%;
   left: 50%;
   max-width: 800px;
-  width: 90%;
+  width: 90% !important; /* !important to override CC */
   height: 60vh !important;
   min-height: 320px;
   transform: translate(-50%, -50%);
